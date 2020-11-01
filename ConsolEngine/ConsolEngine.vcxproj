@@ -89,13 +89,41 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseApp.cpp" />
+    <ClCompile Include="FigureI.cpp" />
+    <ClCompile Include="FigureJ.cpp" />
+    <ClCompile Include="FigureL.cpp" />
+    <ClCompile Include="FigureO.cpp" />
+    <ClCompile Include="FigureS.cpp" />
+    <ClCompile Include="FigureT.cpp" />
+    <ClCompile Include="FigureZ.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SingleBrick.cpp" />
     <ClCompile Include="TestApp.cpp" />
+    <ClCompile Include="Tetromino.cpp" />
+    <ClCompile Include="TetrominoFactory.cpp" />
+    <ClCompile Include="Tetris.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.h" />
+    <ClInclude Include="FigureI.h" />
+    <ClInclude Include="FigureJ.h" />
+    <ClInclude Include="FigureL.h" />
+    <ClInclude Include="FigureO.h" />
+    <ClInclude Include="FigureS.h" />
+    <ClInclude Include="FigureT.h" />
+    <ClInclude Include="FigureZ.h" />
+    <ClInclude Include="globals.h" />
     <ClInclude Include="PerformanceCounter.h" />
+    <ClInclude Include="Pixel.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SingleBrick.h" />
     <ClInclude Include="TestApp.h" />
+    <ClInclude Include="Tetromino.h" />
+    <ClInclude Include="TetrominoFactory.h" />
+    <ClInclude Include="Tetris.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ConsolEngine.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

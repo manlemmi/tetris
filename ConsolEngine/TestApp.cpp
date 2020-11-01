@@ -13,23 +13,23 @@ TestApp::TestApp() : Parent(100, 80)
 
 void TestApp::KeyPressed(int btnCode)
 {
-	if (btnCode == 119) //w
+	if(btnCode == 119) //w
 		mObj1Y--;
-	else if (btnCode == 115) //s
+	else if(btnCode == 115) //s
 		mObj1Y++;
-	else if (btnCode == 97) //a
+	else if(btnCode == 97) //a
 		mObj1X--;
-	else if (btnCode == 100) //d
+	else if(btnCode == 100) //d
 		mObj1X++;
 
-	if (mObj1X < 0)
+	if(mObj1X < 0)
 		mObj1X = 0;
-	else if (mObj1X >= X_SIZE)
+	else if(mObj1X >= X_SIZE)
 		mObj1X = X_SIZE - 1;
 
-	if (mObj1Y < 0)
+	if(mObj1Y < 0)
 		mObj1Y = 0;
-	else if (mObj1Y >=Y_SIZE)
+	else if(mObj1Y >= Y_SIZE)
 		mObj1Y = Y_SIZE - 1;
 }
 
@@ -41,19 +41,16 @@ void TestApp::UpdateF(float deltaTime)
 	mObj1XOld = mObj1X;
 	mObj1YOld = mObj1Y;
 
-	//-----------------------------
-
 	SetChar(mObj2X, mObj2Y, L' ');
-	if (mDirection)
+	if(mDirection)
 	{
 		mObj2X++;
-		if (mObj2X == 40)
+		if(mObj2X == 40)
 			mDirection = false;
-	}
-	else
+	} else
 	{
 		mObj2X--;
-		if (mObj2X == 10)
+		if(mObj2X == 10)
 			mDirection = true;
 	}
 	SetChar(mObj2X, mObj2Y, L'F');

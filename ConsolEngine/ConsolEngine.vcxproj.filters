@@ -13,6 +13,39 @@
     <ClCompile Include="main.cpp">
       <Filter>sources</Filter>
     </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetromino.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrominoFactory.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleBrick.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureI.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureJ.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureL.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureO.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureS.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureT.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureZ.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
     <ClCompile Include="TestApp.cpp">
       <Filter>sources</Filter>
     </ClCompile>
@@ -24,8 +57,25 @@
     <ClInclude Include="PerformanceCounter.h">
       <Filter>sources</Filter>
     </ClInclude>
-    <ClInclude Include="TestApp.h">
+    <ClInclude Include="Tetris.h" />
+    <ClInclude Include="Tetromino.h" />
+    <ClInclude Include="TetrominoFactory.h" />
+    <ClInclude Include="globals.h">
       <Filter>sources</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SingleBrick.h" />
+    <ClInclude Include="Pixel.h" />
+    <ClInclude Include="FigureI.h" />
+    <ClInclude Include="FigureJ.h" />
+    <ClInclude Include="FigureL.h" />
+    <ClInclude Include="FigureO.h" />
+    <ClInclude Include="FigureS.h" />
+    <ClInclude Include="FigureT.h" />
+    <ClInclude Include="FigureZ.h" />
+    <ClInclude Include="TestApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ConsolEngine.rc" />
   </ItemGroup>
 </Project>
