@@ -115,15 +115,11 @@
     <ClInclude Include="globals.h" />
     <ClInclude Include="PerformanceCounter.h" />
     <ClInclude Include="Pixel.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="SingleBrick.h" />
     <ClInclude Include="TestApp.h" />
     <ClInclude Include="Tetromino.h" />
     <ClInclude Include="TetrominoFactory.h" />
     <ClInclude Include="Tetris.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="ConsolEngine.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

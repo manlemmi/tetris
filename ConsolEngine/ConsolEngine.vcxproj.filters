@@ -63,7 +63,6 @@
     <ClInclude Include="globals.h">
       <Filter>sources</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="SingleBrick.h" />
     <ClInclude Include="Pixel.h" />
     <ClInclude Include="FigureI.h" />
@@ -74,8 +73,5 @@
     <ClInclude Include="FigureT.h" />
     <ClInclude Include="FigureZ.h" />
     <ClInclude Include="TestApp.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="ConsolEngine.rc" />
   </ItemGroup>
 </Project>

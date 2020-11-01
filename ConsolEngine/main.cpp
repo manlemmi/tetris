@@ -1,9 +1,13 @@
 // Copyright 2009-2014 Blam Games, Inc. All Rights Reserved.
 
 #include "TestApp.h"
+#include "Tetris.h"
 
-void main ()
+#include <ctime>
+
+void main()
 {
-	TestApp app;
-	app.Run();
+	srand(std::time(0));
+	Tetris tetris;
+	tetris.Run();
 }
